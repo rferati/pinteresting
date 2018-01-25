@@ -15,13 +15,13 @@ gem 'bootstrap-sass'
 #gem 'paperclip', '~> 3.0'
 
 group :development, :test do
-     gem 'sqlite3'
+  
        
     gem 'listen'
 end
 
 group :production do
-     gem 'pg'
+     
      gem 'rails_12factor'
 
 

@@ -25,7 +25,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass'
 
 group :development, :test do
-  gem 'rails_12factor'
+  #gem 'rails_12factor'
   #gem 'pg'
   #gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -37,7 +37,7 @@ end
 
 group :production do 
   
-  #gem 'pg'
+  gem 'pg'
   gem 'rails_12factor'
 
   end
